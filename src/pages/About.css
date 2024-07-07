@@ -1,0 +1,123 @@
+
+#about {
+  background: linear-gradient(to right, hsl(40, 77%, 42%) , rgb(78, 77, 75));
+  position: relative;
+  z-index: 1;
+  text-align: justify;
+}
+
+
+#about img{
+  width: 400px;
+  padding-bottom: 10%;
+}
+#education {
+  background-color: #7f818355;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  min-height: 100vh;
+}
+#text-secondary{
+  color:rgb(212, 163, 57);
+}
+
+
+
+/*  */
+
+.container2 {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+/*  */
+#skill {
+  background: linear-gradient(to right, hsl(40, 77%, 42%) , rgb(78, 77, 75));
+  margin-top: 10px;
+}
+
+.skills {
+  padding-top: 120px;
+}
+
+.skill {
+  width: 500px;
+  margin: 60px auto;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.27);
+}
+.skill li {
+  margin: 20px 0;
+  padding: 10px;
+}
+.bar {
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0,0,0,0.3);
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.28,.8,.25,1);
+  margin-left: 60px;
+  margin-right: 60px;
+}
+.bar:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.bar span {
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgb(118, 117, 113)0%, rgb(182, 178, 170)100%);
+}
+.html {
+  width: 90%;
+  animation: html 3s;
+}
+.css {
+  width: 70%;
+  animation: css 3s;
+}
+.php {
+  width: 35%;
+  animation: php 3s;
+}
+.javascript {
+  width: 50%;
+  animation: javascript 3s;
+}
+@keyframes html {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 90%;
+  }
+}
+@keyframes css {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 70%;
+  }
+}
+@keyframes php {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 35%;
+  }
+}
+@keyframes javascript {
+  0% {
+      width: 0%;
+  }
+  100% {
+      width: 50%;
+  }
+}
